@@ -52,8 +52,8 @@ nav {
 .Link a::after {
     content: "";
     position: absolute;
-    height: 2px;
-    width: 0;
+    height: 8px;
+    width: 20px;
     bottom: 0;
     left: 0;
     background-color: #c5453b;
@@ -61,7 +61,7 @@ nav {
 }
 
 .Link a:hover::after{
-    width: 70%;
+    width: 100%;
 }
 
  .btn{
@@ -216,7 +216,7 @@ section .header{
 .pricing{
     margin-top: 4rem;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 2fr);
     gap: 2rem;
 }
 
@@ -228,6 +228,7 @@ section .header{
     border: 2px solid transparent;
     border-radius: 15px;
     transition: all 0.3s ease;
+    text-align: center;
 }
 
 .pricing .card:hover{
