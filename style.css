@@ -18,8 +18,8 @@ a {
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #18181b;
+    font-family:system-ui, 'Segoe UI',  Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
 }
 
 nav {
@@ -46,7 +46,7 @@ nav {
 .Link a {
     position: relative;
     padding-bottom: 0.75rem;
-    color: #fff;
+    color: black;
 }
 
 .Link a::after {
@@ -56,7 +56,7 @@ nav {
     width: 0;
     bottom: 0;
     left: 0;
-    background-color: #1d4ed8;
+    background-color: #c5453b;
     transition: all 0.3s ease;
 }
 
@@ -67,15 +67,15 @@ nav {
  .btn{
     padding: 1rem 2rem;
     font-size: 1rem;
-    color: #fff;
-    background-color: #1d4ed8;
+    color: black;
+    background-color: red;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
  }
 
  .btn:hover{
-    background-color: #1e40af;
+    background-color: #c5453b;
  }
 
 .container{
@@ -86,7 +86,7 @@ nav {
 
 .blur{
     position: absolute;
-    box-shadow: 0 0 1000px 50px #1d4ed8;
+    box-shadow: 0 0 1000px 50px #c5453b;
     z-index: -100;
 }
 
@@ -101,13 +101,13 @@ header{
 
 header .content h4{
     margin-bottom: 1rem;
-    color: #ccc;
+    color: darkgrey;
     font-size: 1rem;
     font-weight: 600;
 }
 
 header .content h1{
-    color: #fff;
+    color: gray;
     margin-bottom: 1rem;
     font-size: 3rem;
     font-weight: 700;
@@ -116,12 +116,12 @@ header .content h1{
 
 header .content h1 span{
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px #fff;
+    -webkit-text-stroke: 1px #d62c2c;
 }
 
 header .content p{
     margin-bottom: 2rem;
-    color: #ccc;
+    color: darkgray;
 }
 
 header .image{
@@ -129,7 +129,7 @@ header .image{
 }
 
 header .image::before{
-    content: "o";
+    content: "R";
     position: absolute;
     top: 0;
     left: 50%;
@@ -137,7 +137,7 @@ header .image::before{
     font-size: 38rem;
     font-weight: 400;
     line-height: 20rem;
-    color: #1d4ed8;
+    color: red;
     opacity: 0.2;
     z-index: -100;
 }
@@ -149,7 +149,7 @@ header .image img{
 
 section .header{
     margin-bottom: 1rem;
-    color: #fff;
+    color: darkgray;
     text-align: center;
     font-size: 2.25rem;
     font-weight: 600;
@@ -163,7 +163,7 @@ section .header{
 }
 
 .features .card{
-    background-color: #27272a;
+    background-color: whitesmoke;
     padding: 1rem;
     border: 2px solid transparent;
     border-radius: 15px;
@@ -171,46 +171,46 @@ section .header{
 }
 
 .features .card:hover{
-    background-color: #323232;
-    border-color: #fff;
+    background-color: #eeececc9;
+    border-color: black;
 }
 
 .features .card span{
     display: inline-block;
-    background-color: #1e40af;
+    background-color: red;
     padding: 2px 9px;
     margin-bottom: 1rem;
     font-size: 1rem;
-    color: #fff;
+    color: black;
     border-radius: 5px;
 }
 
 .features .card h4{
     margin-bottom: 0.5rem;
-    color: #fff;
+    color: darkgray;
     font-size: 1.2rem;
     font-weight: 600;
 }
 
 .features .card p{
-    color: #ccc;
+    color: darkgray;
     margin-bottom: 1rem;
 }
 
 .features .card a{
-    color: #fff;
+    color: black;
     transition: all 0.3s ease;
 }
 
 .features .card a:hover{
-    color: #1e40af;
+    color: #c5453b;
 }
 
 .sub-header{
     max-width: 600px;
     margin: auto;
     text-align: center;
-    color: #ccc;
+    color: gray;
 }
 
 .pricing{
@@ -222,7 +222,7 @@ section .header{
 
 .pricing .card{
     padding: 3rem 2rem;
-    background-color: #27272a;
+    background-color: whitesmoke;
     display: flex;
     flex-direction: column;
     border: 2px solid transparent;
@@ -231,8 +231,8 @@ section .header{
 }
 
 .pricing .card:hover{
-    background-color: #323232;
-    border-color: #fff;
+    background-color: #eeececc9;
+    border-color: black;
 }
 
 .pricing .card .content{
@@ -242,40 +242,40 @@ section .header{
 
 .pricing .card h4{
     margin-bottom: 1rem;
-    color: #fff;
+    color: darkgray;
     font-size: 1.2rem;
     font-weight: 500;
 }
 
 .pricing .card h3{
-    color: #fff;
+    color: black;
     padding-bottom: 1rem;
     margin-bottom: 2rem;
     font-size: 2rem;
     font-weight: 600;
-    border-bottom: 2px dashed #fff;
+    border-bottom: 2px dashed black;
 }
 
 .pricing .card p{
-    color: #fff;
+    color: darkgray;
     margin-bottom: 0.75rem;
 }
 
 .pricing .card p i{
-    color: #ccc;
+    color: darkgrey;
     font-size: 1.2rem;
     margin-right: 0.3rem;
 }
 
 .pricing .card button{
-    color: #fff;
+    color: black;
     background-color: transparent;
-    border: 2px solid #fff;
+    border: 2px solid black;
 }
 
 .pricing .card button:hover{
-    background-color: #1e40af;
-    border-color: #1e40af;
+    background-color: #c5453b;
+    border-color: black;
 }
 
 footer{
@@ -291,8 +291,9 @@ footer .column .logo{
 }
 
 footer .column p{
-    color: #ccc;
+    color: darkgray;
     margin-bottom: 2rem;
+    text-align: justify;
 }
 
 footer .column .socials{
@@ -302,8 +303,8 @@ gap: 1rem;
 }
 
 footer .column .socials a{
-   color: #ccc; 
-   border: 1px solid #ccc;
+   color: black; 
+   border: 1px solid black;
    padding: 5px 10px;
    font-size: 1.25rem;
    border-radius: 100%;
@@ -311,13 +312,13 @@ footer .column .socials a{
 }
 
 footer .column .socials a{
-    color: #fff;
-    background-color: #1d4ed8;
-    border-color: #1d4ed8;
+    color: black;
+    background-color: red;
+    border-color: red;
 }
 
 footer .column h4{
-    color: #fff;
+    color: darkgrey;
     margin-bottom: 2rem;
     font-size: 1.2rem;
     font-weight: 500;
@@ -325,20 +326,20 @@ footer .column h4{
 
 footer .column > a{
     display: block;
-    color: #ccc;
+    color: darkgray;
     margin-bottom: 1rem;
     transition: all 0.3s ease;
 }
 
 footer .column > a:hover{
-    color: #1d4ed8;
+    color: #c5453b;
 }
 
 .copyright{
     max-width: 1200px;
     margin: auto;
     padding: 1rem;
-    color: #fff;
+    color: black;
     font-size: 0.8rem;
     text-align: center;
 }
